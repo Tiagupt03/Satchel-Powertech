@@ -1,0 +1,1 @@
+- <a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.satchelpower.com" target="_blank">SSL Server Test</a>
