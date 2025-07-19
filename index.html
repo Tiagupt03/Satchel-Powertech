@@ -5,62 +5,193 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Satchel Powertech</title>
   <link rel="icon" type="image/png" href="favicon.png">
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      background-image: url('https://goldisolar.com/wp-content/uploads/2023/10/How-Solar-Panels-Are-Beneficial-for-the-Environment-scaled-1706x1706.jpg'); /* Replace with your image path */
-      background-size: cover;
-      background-position: center;
-      font-family: Arial, sans-serif;
-      color: white;
-      text-align: center;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      background-repeat: no-repeat;
-    }
-
-    .overlay {
-      background: rgba(0, 0, 0, 0.6); /* Optional dark overlay */
-      padding: 20px;
-    }
-
-    h1 {
-      font-size: 48px;
-      margin-bottom: 10px;
-    }
-
-    p {
-      font-size: 20px;
-      margin: 5px 0;
-    }
-
-    a {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 10px 20px;
-      background-color: #ffffff;
-      color: #000;
-      text-decoration: none;
-      font-weight: bold;
-      border-radius: 5px;
-    }
-
-    a:hover {
-      background-color: #ddd;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="overlay">
-    <h1>Satchel Powertech</h1>
-    <h2>Website Coming Soon...</h2>
-    <p>Contact Number 1: +91-8800406355</p>
-    <p>Contact Number 2: +91-9311716926</p>
-    <!--<a href="https://drive.google.com/uc?export=download&id=1rOkHmC2X4qItPVKs20O3a4s7vj5gJM4r" target="_blank">Download Brochure</a>-->
-    <a href="brochure.pdf" download>Download Brochure</a>
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="logo.png" alt="Logo">
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Page Sections-->
+  <section id="home">
+    <div class="home-bg">
+      <img src="home_bg.jpg" />
+    </div>
+
+    <!-- Wrap content in a flex container -->
+      <div class="home-content">
+        <div class="home-text">
+          <h1>Power Your Home with Solar Energy</h1>
+          <p>Clean, efficient, and cost-saving installations.</p>
+        </div>
+
+        <div class="form-container">
+          <h2>Book a Visit</h2>
+          <form id="booking-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="tel" name="phone" placeholder="Your Phone Number" required>
+            <input type="text" name="address" placeholder="Address for Installation" required>
+            <textarea name="message" placeholder="Additional Details"></textarea>
+            <button type="submit">Book Now</button>
+          </form>
+        </div>
+      </div>
+  </section>
+
+  <section id="about">
+    <h1 class="section-title">About Us</h1>
+    <div class="about-container">
+      <div class="about-box">
+        <img src="https://img.icons8.com/ios-filled/50/checkmark--v1.png" alt="Trust Icon" />
+        <div>
+          <h2>TRUST &<br>RELIABILITY</h2>
+          <p>Satchel Powertech is an authorized channel partner of Redington. Redington is an USD 9.9 Billion, AA+ Rated Public Listed Company with operations in more than 30 Countries. You can trust on Redington to last for the many years to come to support your investment.</p>
+        </div>
+      </div>
+      <div class="about-box">
+        <img src="https://img.icons8.com/warranty" alt="Warranty Icon" />
+        <div>
+          <h2>LONG-TERM<br>WARRANTY</h2>
+          <p>10 years defects liability Warranty and 25 years Performance Warranty on the Solar Modules. The Solar Inverters come with a full 7 Years Warranty.</p>
+        </div>
+      </div>
+      <div class="about-box">
+        <img src="https://img.icons8.com/ios/50/solar-panel.png" alt="Custom System Icon" />
+        <div>
+          <h2>CUSTOMIZED<br>SOLAR PV SYSTEM</h2>
+          <p>Customization and Installation of a High-Quality Solar PV System to suit your needs. Each component including the Solar Panels, Inverter and Battery are of the best caliber.</p>
+        </div>
+      </div>
+      <div class="about-box">
+        <img src="https://img.icons8.com/ios/50/conference-call.png" alt="Team Icon" />
+        <div>
+          <h2>HIGHLY SKILLED &<br>EXPERIENCED TEAM</h2>
+          <p>Satchel Powertech ensures all your interactions with us are worth your time and money. We employ the best people in the business to give you the best Solar experience. With Partners that boast of over 20 years of experience you can see why we grew so fast and so well.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="image-row">
+    <img src="solar_panel_image.jpg" alt="Solar Panel">
+    <img src="solar_panel_image1.jpg" alt="Solar Panel">
+    <img src="solar_panel_image2.jpg" alt="Solar Panel">
   </div>
+
+  <section id="services">
+    <h1 class="section-title">Our Services</h1>
+    <div class="services-container">
+      
+      <div class="service-step">
+        <img src="https://img.icons8.com/ios/50/home.png" alt="Site Survey" />
+        <h2>Site Survey</h2>
+        <p>We start with a detailed on-site assessment to evaluate your roof structure, energy needs, and feasibility for solar panel installation.</p>
+      </div>
+
+      <div class="service-step">
+        <img src="https://img.icons8.com/ios/50/solar-panel.png" alt="Final Design" />
+        <h2>Final Design</h2>
+        <p>Our expert engineers design a customized solar PV system tailored to your energy requirements and site conditions.</p>
+      </div>
+
+      <div class="service-step">
+        <img src="https://img.icons8.com/ios/50/agreement.png" alt="Approvals" />
+        <h2>Approvals</h2>
+        <p>We handle all government, utility, and net-metering approvals and documentation to ensure a smooth installation process.</p>
+      </div>
+
+      <div class="service-step">
+        <img src="tools.png" alt="Installation" />
+        <h2>Installation</h2>
+        <p>Our certified technicians install your solar system using high-quality equipment, ensuring safety and durability.</p>
+      </div>
+
+      <div class="service-step">
+        <img src="https://img.icons8.com/ios/50/inspection.png" alt="Inspection" />
+        <h2>Inspection</h2>
+        <p>We perform a thorough inspection to make sure everything is working perfectly and meets all regulatory standards.</p>
+      </div>
+
+      <div class="service-step">
+        <img src="https://img.icons8.com/ios/50/electrical.png" alt="Utility Connection" />
+        <h2>Utility Connection</h2>
+        <p>We coordinate with your electricity provider to connect your solar system to the grid for efficient power generation and usage.</p>
+      </div>
+
+      <div class="service-step">
+        <img src="https://img.icons8.com/ios/50/sun.png" alt="Power On" />
+        <h2>Power On</h2>
+        <p>Your solar system goes live! Start generating clean, green energy and enjoy significant savings on your electricity bills.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact">
+    <h1 class="section-title">Contact Us</h1>
+
+    <div class="contact-wrapper">
+      <div class="contact-info">
+        <div class="contact-item">
+          <img src="website.png" alt="Website Icon" />
+          <strong>Website:</strong>
+          <span>www.satchelpower.com</span>
+        </div>
+
+        <div class="contact-item">
+          <img src="https://img.icons8.com/ios-filled/30/phone.png" alt="Phone Icon" />
+          <strong>Phone:</strong>
+          <span>+91 88004 06355 / +91 93117 16926</span>
+        </div>
+
+        <div class="contact-item">
+          <img src="email.png" alt="Email Icon" />
+          <strong>Email:</strong>
+          <span>Info@SatchelPower.com</span>
+        </div>
+
+        <div class="contact-item">
+          <img src="https://img.icons8.com/ios-filled/30/marker.png" alt="Location Icon" />
+          <strong>Office Address:</strong>
+          <span>
+            Satchel Powertech Pvt. Ltd, Office No. A 409,<br>
+            Plot No. 4, Noida-Greater Noida Expressway,<br>
+            Sector - 132, Noida, UP - 201304
+          </span>
+        </div>
+      </div>
+
+      <div class="form-container">
+        <h2>Book a Visit</h2>
+        <form id="booking-form">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <input type="tel" name="phone" placeholder="Your Phone Number" required>
+          <input type="text" name="address" placeholder="Address for Installation" required>
+          <textarea name="message" placeholder="Additional Details"></textarea>
+          <button type="submit">Book Now</button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <script src="script.js"></script>
 </body>
 </html>
+
+
+
+  
